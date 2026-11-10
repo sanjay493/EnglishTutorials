@@ -38,7 +38,7 @@ function emit(file, content) {
 /* ------------------------------------------------------------------ sidebar */
 
 const sidebar = [];
-sidebar.push('- [Home](/ "English 120")');
+sidebar.push('- [Home](README.md)');
 sidebar.push('- [Start here](START-HERE.md)');
 sidebar.push('- [120-day plan](PLAN.md)');
 sidebar.push('- [Progress](PROGRESS.md)');

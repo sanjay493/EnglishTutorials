@@ -1,4 +1,4 @@
-- [Home](/ "English 120")
+- [Home](README.md)
 - [Start here](START-HERE.md)
 - [120-day plan](PLAN.md)
 - [Progress](PROGRESS.md)

@@ -1,4 +1,4 @@
-# English 120: Zero to Confident: the 120-day plan
+# English 120: Zero to Confident — the 120-day plan
 
 > A 120-day course in grammar, speaking, writing, and professional English. Levels: CEFR A1 to C2. Daily commitment: 45-60 minutes.
 

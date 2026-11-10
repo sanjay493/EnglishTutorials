@@ -17,7 +17,7 @@ const checkOnly = process.argv.includes('--check');
 const { course, modules, days } = readCurriculum();
 
 const lines = [];
-lines.push(`# ${course.title}: the 120-day plan`);
+lines.push(`# ${course.title} — the 120-day plan`);
 lines.push('');
 lines.push(
   `> ${course.subtitle}. Levels: ${course.levels}. Daily commitment: ${course.dailyTime}.`
