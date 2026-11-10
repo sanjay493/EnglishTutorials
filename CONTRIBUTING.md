@@ -5,6 +5,9 @@ How to grow this course without breaking it.
 ## Quick start
 
 ```powershell
+# rebuild, validate, commit and push in one step
+.\scripts\publish.ps1 "lesson(day-006): present simple questions"
+
 # preview the site locally (Docsify needs HTTP, not file://)
 python -m http.server 8080
 # then open http://localhost:8080
@@ -96,6 +99,10 @@ Then, once:
 2. Under **Build and deployment → Source**, choose **GitHub Actions**.
 3. Run the **Deploy site** workflow (it also runs automatically on every push to `main`).
 4. The site appears at `https://sanjay493.github.io/EnglishTutorials/`.
+
+The workflow tries to enable Pages by itself, but GitHub's repository token usually cannot create the Pages site. If the
+**Configure Pages** step fails, set the source once in **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+After that the same workflow deploys on every push.
 
 If `git push` asks for credentials, use a GitHub personal access token as the password, or authenticate the GitHub CLI first:
 
