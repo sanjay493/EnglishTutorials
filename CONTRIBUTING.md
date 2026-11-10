@@ -113,7 +113,13 @@ gh auth setup-git
 
 ### Optional: fully automated daily lessons
 
-`.github/workflows/daily-lesson.yml` can write lessons on a schedule.
+See **[AUTOMATION.md](AUTOMATION.md)** for the full guide. There are two unattended options:
+
+- **Windows Task Scheduler** - runs on your PC with your existing OpenCode login, so it uses your daily free quota.
+  Register it once with `.\scripts\register-daily-task.ps1 -Time "09:00"`.
+- **GitHub Actions** - runs in the cloud and needs a provider API key.
+
+`.github/workflows/daily-lesson.yml` writes lessons on a schedule and deploys the site in the same run.
 
 1. Add a provider key under **Settings → Secrets and variables → Actions → Secrets** (for example `OPENROUTER_API_KEY`).
 2. Add a repository **variable** `OPENCODE_MODEL` with a value like `openrouter/anthropic/claude-sonnet-4.5`.

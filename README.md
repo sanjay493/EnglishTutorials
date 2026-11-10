@@ -73,6 +73,8 @@ This repository is designed to grow daily without turning into a mess:
 | `ops/token-budget.json` | Your daily free-tier limit and per-lesson estimate |
 | `ops/run-log.jsonl` | What was written, when, and at what estimated cost |
 
+The loop can also run without you: see **[AUTOMATION.md](AUTOMATION.md)** for Windows Task Scheduler, GitHub Actions, and the token budget.
+
 ```powershell
 # see what fits in today's budget
 node scripts/budget.mjs
@@ -106,6 +108,7 @@ EnglishTutorials/
 ├── SOURCES.md              # references
 ├── TUTORIAL-TEMPLATE.md    # lesson skeleton
 ├── CONTRIBUTING.md         # maintenance workflow
+├── AUTOMATION.md           # unattended daily runs
 ├── days/                   # the lessons
 ├── modules/                # generated module overview pages
 ├── ops/                    # curriculum, budget, run log

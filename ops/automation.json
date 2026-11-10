@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "maxLessonsPerRun": 0,
+  "push": true,
+  "note": "maxLessonsPerRun 0 means: use the number recommended by scripts/budget.mjs. Set model to your provider/model id, or leave it empty to use OpenCode's default."
+}
