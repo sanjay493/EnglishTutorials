@@ -58,8 +58,8 @@ Status: ✅ written · ⬜ planned. The live dashboard is [`PROGRESS.md`](PROGRE
 | 3 | [Day 3: A Book, The Book, Books: Articles and Plurals](days/day-003.md) | a/an/the; regular and irregular plurals | Asking about objects, prices, and spelling | A profile paragraph | ✅ |
 | 4 | [Day 4: This, That, Mine: Pointing and Possession](days/day-004.md) | this/that/these/those; possessive adjectives and possessive 's | Shopping for basics | Describing a photo | ✅ |
 | 5 | [Day 5: Every Day Is the Same: Present Simple](days/day-005.md) | Present simple affirmative; third-person -s spelling | Daily routine interview | Write about your day | ✅ |
-| 6 | Day 6: Do You...? Yes, I Do: Questions | Present simple negatives, yes/no questions, wh-questions, short answers | Personal questions and follow-up questions | A first email to a colleague | ⬜ |
-| 7 | Day 7: Checkpoint 1: First Conversations | Review of Days 1-6 | Role-play: meeting someone for the first time | Guided paragraph (60 words) | ⬜ |
+| 6 | [Day 6: Do You...? Yes, I Do: Questions](days/day-006.md) | Present simple negatives, yes/no questions, wh-questions, short answers | Personal questions and follow-up questions | A first email to a colleague | ✅ |
+| 7 | [Day 7: Checkpoint 1: First Conversations](days/day-007.md) | Review of Days 1-6 | Role-play: meeting someone for the first time | Guided paragraph (60 words) | ✅ |
 | 8 | Day 8: There Is a Table in the Room: Place | there is/are; prepositions of place | Describing your home and workplace | Describe a room | ⬜ |
 | 9 | Day 9: Some Coffee, Any Sugar? Quantity | Countable and uncountable nouns; some/any/much/many | Ordering food and drink | Shopping list and a short note | ⬜ |
 | 10 | Day 10: Bigger, Better, Cheaper: Comparison | Adjectives; basic comparatives; intensifiers very/really/quite | Comparing two products | A short comparison review | ⬜ |

@@ -4,14 +4,14 @@
 
 ```text
 English 120: Zero to Confident
-█░░░░░░░░░░░░░░░░░░░░░░░  5/120 lessons  (4%)
+█░░░░░░░░░░░░░░░░░░░░░░░  7/120 lessons  (6%)
 ```
 
-**5 of 120 lessons written.** 115 still planned.
+**7 of 120 lessons written.** 113 still planned.
 
 | Module | Level | Written | Progress |
 | --- | --- | --- | --- |
-| [1. Foundations](modules/01-foundations.md) | A1 | 5/15 | `████░░░░░░░░` |
+| [1. Foundations](modules/01-foundations.md) | A1 | 7/15 | `██████░░░░░░` |
 | [2. Elementary](modules/02-elementary.md) | A2 | 0/15 | `░░░░░░░░░░░░` |
 | [3. Intermediate](modules/03-intermediate.md) | B1 | 0/15 | `░░░░░░░░░░░░` |
 | [4. Upper-Intermediate I](modules/04-upper-intermediate-one.md) | B2 | 0/15 | `░░░░░░░░░░░░` |
@@ -22,17 +22,17 @@ English 120: Zero to Confident
 
 ## Next up
 
-**Day 6 · Do You...? Yes, I Do: Questions** — Present simple negatives, yes/no questions, wh-questions, short answers. Speaking: Personal questions and follow-up questions. Writing: A first email to a colleague.
+**Day 8 · There Is a Table in the Room: Place** — there is/are; prepositions of place. Speaking: Describing your home and workplace. Writing: Describe a room.
 
 ## Recently added
 
 | Day | Lesson | Words | Updated |
 | --- | --- | --- | --- |
+| 7 | [Checkpoint 1: First Conversations](days/day-007.md) | 1330 | 2026-11-10 |
+| 6 | [Do You...? Yes, I Do: Questions](days/day-006.md) | 1380 | 2026-11-10 |
 | 5 | [Every Day Is the Same: Present Simple](days/day-005.md) | 1070 | 2026-11-10 |
 | 4 | [This, That, Mine: Pointing and Possession](days/day-004.md) | 1060 | 2026-11-10 |
 | 3 | [A Book, The Book, Books: Articles and Plurals](days/day-003.md) | 1100 | 2026-11-10 |
-| 2 | [You, Me, and Everyone Else: Pronouns](days/day-002.md) | 1040 | 2026-11-10 |
-| 1 | [Say It Simply: Word Order and the Verb Be](days/day-001.md) | 1080 | 2026-11-10 |
 
 ## How status is tracked
 

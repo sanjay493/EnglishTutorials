@@ -13,8 +13,20 @@ $daily = Join-Path $PSScriptRoot "daily.ps1"
 
 if (-not (Test-Path $daily)) { throw "Cannot find $daily" }
 
-$shell = (Get-Command pwsh -ErrorAction SilentlyContinue).Source
-if (-not $shell) { $shell = (Get-Command powershell -ErrorAction Stop).Source }
+# Prefer PowerShell 7, but only when it resolves to a real file. The Store
+# version of pwsh is a zero-byte app execution alias, and Task Scheduler
+# cannot launch those. Fall back to Windows PowerShell 5.1, which is a
+# stable real path and handles scripts/daily.ps1 fine.
+$shell = $null
+$pwsh = (Get-Command pwsh -ErrorAction SilentlyContinue).Source
+if ($pwsh -and (Test-Path $pwsh)) {
+  $item = Get-Item $pwsh
+  if ($item.Length -gt 0) { $shell = $pwsh }
+}
+if (-not $shell) {
+  $shell = Join-Path $env:SystemRoot "System32\WindowsPowerShell\v1.0\powershell.exe"
+}
+if (-not (Test-Path $shell)) { throw "Cannot find a usable PowerShell host." }
 
 $action = New-ScheduledTaskAction `
   -Execute $shell `
