@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+_site/
+.cache/

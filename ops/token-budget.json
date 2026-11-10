@@ -1,0 +1,9 @@
+{
+  "providerNote": "Set this to the free-tier daily token allowance you actually have. The lesson writer stops before the limit so you never lose a run to a hard cap. Check your provider dashboard, then update the numbers.",
+  "dailyTokenLimit": 100000,
+  "reserveTokens": 12000,
+  "stopAtPercent": 80,
+  "estimatedTokensPerLesson": 6000,
+  "maxLessonsPerRun": 2,
+  "updated": "2026-11-10"
+}

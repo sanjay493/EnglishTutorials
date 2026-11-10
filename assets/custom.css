@@ -1,0 +1,133 @@
+:root {
+  --theme-color: #2b6cb0;
+  --ink: #1f2933;
+  --muted: #5f6b7a;
+  --line: #e3e8ef;
+  --paper: #ffffff;
+  --soft: #f6f8fb;
+}
+
+body {
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.sidebar {
+  background: var(--soft);
+  border-right: 1px solid var(--line);
+}
+
+.sidebar .app-name-link {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.sidebar ul li a {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.sidebar ul li ul {
+  margin-left: 6px;
+  border-left: 1px solid var(--line);
+  padding-left: 6px;
+}
+
+.content {
+  max-width: 780px;
+  padding-top: 24px;
+}
+
+.markdown-section {
+  font-size: 16.5px;
+  line-height: 1.72;
+}
+
+.markdown-section h1 {
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.markdown-section h2 {
+  font-size: 1.35rem;
+  margin-top: 2.2em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--line);
+}
+
+.markdown-section h3 {
+  font-size: 1.08rem;
+  margin-top: 1.6em;
+}
+
+.markdown-section blockquote {
+  border-left: 4px solid var(--theme-color);
+  background: var(--soft);
+  padding: 10px 16px;
+  color: var(--muted);
+}
+
+.markdown-section table {
+  display: table;
+  width: 100%;
+  font-size: 14.5px;
+}
+
+.markdown-section table th {
+  background: var(--soft);
+  text-align: left;
+}
+
+.markdown-section table td,
+.markdown-section table th {
+  padding: 8px 10px;
+  border-color: var(--line);
+}
+
+.markdown-section code {
+  background: var(--soft);
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 0.88em;
+}
+
+.markdown-section pre > code {
+  background: #1f2933;
+  color: #e6edf3;
+  border-radius: 8px;
+}
+
+.markdown-section a {
+  font-weight: 500;
+}
+
+.cover {
+  background: linear-gradient(135deg, #12324f 0%, #2b6cb0 55%, #4c9be8 100%);
+}
+
+.cover-main blockquote p {
+  color: #e8f1fb;
+}
+
+.cover-main ul {
+  margin-top: 1.4rem;
+}
+
+.cover-main ul li a {
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 9px 22px;
+}
+
+.markdown-section hr {
+  border-bottom: 1px solid var(--line);
+}
+
+@media screen and (max-width: 768px) {
+  .markdown-section {
+    font-size: 16px;
+  }
+  .markdown-section table {
+    font-size: 13.5px;
+  }
+}

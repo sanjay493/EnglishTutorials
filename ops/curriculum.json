@@ -1,0 +1,1175 @@
+{
+  "course": {
+    "title": "English 120: Zero to Confident",
+    "subtitle": "A 120-day course in grammar, speaking, writing, and professional English",
+    "version": "1.0.0",
+    "startDate": "2026-11-10",
+    "levels": "CEFR A1 to C2",
+    "dailyTime": "45-60 minutes",
+    "license": "CC BY 4.0"
+  },
+  "modules": [
+    {
+      "id": 1,
+      "slug": "01-foundations",
+      "title": "Foundations",
+      "level": "A1",
+      "start": 1,
+      "end": 15,
+      "goal": "Build a correct simple sentence, introduce yourself, and handle everyday basics with confidence.",
+      "checkpoint": "You can introduce yourself, ask and answer simple questions, and write 60 words about your life."
+    },
+    {
+      "id": 2,
+      "slug": "02-elementary",
+      "title": "Elementary",
+      "level": "A2",
+      "start": 16,
+      "end": 30,
+      "goal": "Talk about the past and the future, handle everyday transactions, and write short connected texts.",
+      "checkpoint": "You can tell a simple story, make arrangements, and write a 120-word email or narrative."
+    },
+    {
+      "id": 3,
+      "slug": "03-intermediate",
+      "title": "Intermediate",
+      "level": "B1",
+      "start": 31,
+      "end": 45,
+      "goal": "Link ideas, tell stories, give opinions, and write clear paragraphs for real purposes.",
+      "checkpoint": "You can describe experiences, explain a process, give advice, and write a 180-word opinion text."
+    },
+    {
+      "id": 4,
+      "slug": "04-upper-intermediate-one",
+      "title": "Upper-Intermediate I",
+      "level": "B2",
+      "start": 46,
+      "end": 60,
+      "goal": "Handle complex ideas, formal tone, and the language of work: interviews, reports, and negotiations.",
+      "checkpoint": "You can argue a position, write a formal report, and hold your own in a job interview."
+    },
+    {
+      "id": 5,
+      "slug": "05-upper-intermediate-two",
+      "title": "Upper-Intermediate II",
+      "level": "B2+",
+      "start": 61,
+      "end": 75,
+      "goal": "Sound natural and precise: cohesion, register control, pronunciation, idioms, and self-editing.",
+      "checkpoint": "You can give a structured talk, write a five-paragraph essay, and correct your own common errors."
+    },
+    {
+      "id": 6,
+      "slug": "06-advanced",
+      "title": "Advanced",
+      "level": "C1",
+      "start": 76,
+      "end": 90,
+      "goal": "Command nuance, rhetoric, precision, and the editing skills of a confident advanced user.",
+      "checkpoint": "You can debate, write a persuasive feature or essay, and edit your own work to publication standard."
+    },
+    {
+      "id": 7,
+      "slug": "07-professional",
+      "title": "Professional & Business English",
+      "level": "B2-C1",
+      "start": 91,
+      "end": 105,
+      "goal": "Perform in meetings, negotiations, presentations, email, and business writing, formal and informal.",
+      "checkpoint": "You can chair a meeting, pitch an idea, handle a client, and produce a polished business document."
+    },
+    {
+      "id": 8,
+      "slug": "08-world-englishes",
+      "title": "World Englishes, Trends & Mastery",
+      "level": "C1-C2",
+      "start": 106,
+      "end": 120,
+      "goal": "Understand global varieties, style guides, and the changing language, then prove it in a final exam.",
+      "checkpoint": "You can adapt your English for British, American, and global audiences and explain why you chose each style."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "module": 1,
+      "title": "Say It Simply: Word Order and the Verb Be",
+      "grammar": "Basic sentence order (subject + verb + object); the verb be (am/is/are)",
+      "speaking": "Greetings, introductions, and saying goodbye",
+      "writing": "Personal information form and a three-sentence bio",
+      "vocab": "Numbers, countries, jobs"
+    },
+    {
+      "day": 2,
+      "module": 1,
+      "title": "You, Me, and Everyone Else: Pronouns",
+      "grammar": "Subject pronouns; be in negatives and questions; short answers",
+      "speaking": "Introducing yourself and other people",
+      "writing": "Short chat messages",
+      "vocab": "Family and people"
+    },
+    {
+      "day": 3,
+      "module": 1,
+      "title": "A Book, The Book, Books: Articles and Plurals",
+      "grammar": "a/an/the; regular and irregular plurals",
+      "speaking": "Asking about objects, prices, and spelling",
+      "writing": "A profile paragraph",
+      "vocab": "Everyday objects"
+    },
+    {
+      "day": 4,
+      "module": 1,
+      "title": "This, That, Mine: Pointing and Possession",
+      "grammar": "this/that/these/those; possessive adjectives and possessive 's",
+      "speaking": "Shopping for basics",
+      "writing": "Describing a photo",
+      "vocab": "Possessions"
+    },
+    {
+      "day": 5,
+      "module": 1,
+      "title": "Every Day Is the Same: Present Simple",
+      "grammar": "Present simple affirmative; third-person -s spelling",
+      "speaking": "Daily routine interview",
+      "writing": "Write about your day",
+      "vocab": "Routine verbs"
+    },
+    {
+      "day": 6,
+      "module": 1,
+      "title": "Do You...? Yes, I Do: Questions",
+      "grammar": "Present simple negatives, yes/no questions, wh-questions, short answers",
+      "speaking": "Personal questions and follow-up questions",
+      "writing": "A first email to a colleague",
+      "vocab": "Question words"
+    },
+    {
+      "day": 7,
+      "module": 1,
+      "title": "Checkpoint 1: First Conversations",
+      "grammar": "Review of Days 1-6",
+      "speaking": "Role-play: meeting someone for the first time",
+      "writing": "Guided paragraph (60 words)",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 8,
+      "module": 1,
+      "title": "There Is a Table in the Room: Place",
+      "grammar": "there is/are; prepositions of place",
+      "speaking": "Describing your home and workplace",
+      "writing": "Describe a room",
+      "vocab": "Home and furniture"
+    },
+    {
+      "day": 9,
+      "module": 1,
+      "title": "Some Coffee, Any Sugar? Quantity",
+      "grammar": "Countable and uncountable nouns; some/any/much/many",
+      "speaking": "Ordering food and drink",
+      "writing": "Shopping list and a short note",
+      "vocab": "Food and drink"
+    },
+    {
+      "day": 10,
+      "module": 1,
+      "title": "Bigger, Better, Cheaper: Comparison",
+      "grammar": "Adjectives; basic comparatives; intensifiers very/really/quite",
+      "speaking": "Comparing two products",
+      "writing": "A short comparison review",
+      "vocab": "Describing words"
+    },
+    {
+      "day": 11,
+      "module": 1,
+      "title": "Can You...? Ability and Permission",
+      "grammar": "can/can't for ability and permission",
+      "speaking": "Skills, hobbies, and asking permission",
+      "writing": "A short application note",
+      "vocab": "Skills and hobbies"
+    },
+    {
+      "day": 12,
+      "module": 1,
+      "title": "Always, Sometimes, Never: Habits and Time",
+      "grammar": "Adverbs of frequency; prepositions of time; time expressions",
+      "speaking": "Habits, schedules, and appointments",
+      "writing": "Weekly schedule and a confirming email",
+      "vocab": "Time expressions"
+    },
+    {
+      "day": 13,
+      "module": 1,
+      "title": "Turn Left, Don't Stop: Instructions",
+      "grammar": "Imperatives; let's; object pronouns",
+      "speaking": "Giving instructions and directions",
+      "writing": "Write simple instructions",
+      "vocab": "Directions and movement"
+    },
+    {
+      "day": 14,
+      "module": 1,
+      "title": "Right Now: Present Continuous",
+      "grammar": "Present continuous: form, meaning, and spelling",
+      "speaking": "Phone call: what is happening now?",
+      "writing": "Postcard or text message",
+      "vocab": "Activities"
+    },
+    {
+      "day": 15,
+      "module": 1,
+      "title": "Assessment 1: Your First 15 Days",
+      "grammar": "A1 consolidation and error review",
+      "speaking": "Role-play: meet and greet",
+      "writing": "Guided writing task (80 words)",
+      "vocab": "A1 core 300 words"
+    },
+    {
+      "day": 16,
+      "module": 2,
+      "title": "Yesterday: Past Simple Regular Verbs",
+      "grammar": "Past simple regular verbs; -ed pronunciation",
+      "speaking": "Telling a simple story about yesterday",
+      "writing": "Diary entry",
+      "vocab": "Past time markers"
+    },
+    {
+      "day": 17,
+      "module": 2,
+      "title": "Went, Saw, Had: Irregular Verbs",
+      "grammar": "Past simple irregular verbs",
+      "speaking": "Talking about last weekend",
+      "writing": "Short narrative (100 words)",
+      "vocab": "Common irregular verbs"
+    },
+    {
+      "day": 18,
+      "module": 2,
+      "title": "Did You...? Past Questions",
+      "grammar": "Past simple negatives and questions",
+      "speaking": "Interviewing someone about their past",
+      "writing": "A short biography",
+      "vocab": "Life events"
+    },
+    {
+      "day": 19,
+      "module": 2,
+      "title": "While I Was Walking: Two Pasts",
+      "grammar": "Past continuous; past continuous vs past simple",
+      "speaking": "Describing a scene and an interruption",
+      "writing": "Anecdote",
+      "vocab": "Weather and scenes"
+    },
+    {
+      "day": 20,
+      "module": 2,
+      "title": "Tomorrow and Soon: Future Forms",
+      "grammar": "will vs going to; present continuous for future arrangements",
+      "speaking": "Plans, predictions, and arrangements",
+      "writing": "Invitation and reply",
+      "vocab": "Plans and predictions"
+    },
+    {
+      "day": 21,
+      "module": 2,
+      "title": "You Must, You Don't Have To: Rules",
+      "grammar": "must/mustn't, have to/don't have to",
+      "speaking": "Rules at work and at school",
+      "writing": "Notices and rules",
+      "vocab": "Obligation"
+    },
+    {
+      "day": 22,
+      "module": 2,
+      "title": "Checkpoint 2: Making Arrangements",
+      "grammar": "Review of Days 16-21",
+      "speaking": "Role-play: making arrangements by phone",
+      "writing": "Guided email (80 words)",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 23,
+      "module": 2,
+      "title": "Could You...? Polite English",
+      "grammar": "can/could/may for requests; would like",
+      "speaking": "Polite requests and offers",
+      "writing": "Polite request email",
+      "vocab": "Politeness formulas"
+    },
+    {
+      "day": 24,
+      "module": 2,
+      "title": "The Best in the World: Superlatives",
+      "grammar": "Comparatives and superlatives (full rules)",
+      "speaking": "Comparing places and people",
+      "writing": "Comparison paragraph",
+      "vocab": "Travel and places"
+    },
+    {
+      "day": 25,
+      "module": 2,
+      "title": "Quickly, Carefully, Well: Adverbs",
+      "grammar": "Adverbs and adverbial phrases; position in the sentence",
+      "speaking": "Describing how things are done",
+      "writing": "How-to paragraph",
+      "vocab": "Manner and degree"
+    },
+    {
+      "day": 26,
+      "module": 2,
+      "title": "Across, Through, Along: Movement",
+      "grammar": "Prepositions of movement and extended place",
+      "speaking": "Directions and travel talk",
+      "writing": "Travel itinerary",
+      "vocab": "Transport"
+    },
+    {
+      "day": 27,
+      "module": 2,
+      "title": "Have You Ever...? Experience",
+      "grammar": "Present perfect 1: experience with ever/never",
+      "speaking": "Have you ever...? conversation",
+      "writing": "Experience paragraph",
+      "vocab": "Life experiences"
+    },
+    {
+      "day": 28,
+      "module": 2,
+      "title": "Since 2020, For Three Years: Duration",
+      "grammar": "Present perfect 2: for/since, just/already/yet",
+      "speaking": "Giving progress updates",
+      "writing": "Status update email",
+      "vocab": "Duration"
+    },
+    {
+      "day": 29,
+      "module": 2,
+      "title": "Words That Travel Together: Collocation",
+      "grammar": "Collocation and dictionary skills",
+      "speaking": "Small talk practice",
+      "writing": "Editing practice",
+      "vocab": "Common collocations"
+    },
+    {
+      "day": 30,
+      "module": 2,
+      "title": "Assessment 2: Getting Around",
+      "grammar": "A2 consolidation and error review",
+      "speaking": "Role-play: at the travel desk",
+      "writing": "A2 writing task (120 words)",
+      "vocab": "A2 core 600 words"
+    },
+    {
+      "day": 31,
+      "module": 3,
+      "title": "I Have Been vs I Went: Choosing the Tense",
+      "grammar": "Present perfect vs past simple",
+      "speaking": "Experience vs finished-time talk",
+      "writing": "Narrative vs report",
+      "vocab": "Time frames"
+    },
+    {
+      "day": 32,
+      "module": 3,
+      "title": "I've Been Working On It: Ongoing Action",
+      "grammar": "Present perfect continuous",
+      "speaking": "Explaining ongoing work",
+      "writing": "Progress report email",
+      "vocab": "Effort and duration"
+    },
+    {
+      "day": 33,
+      "module": 3,
+      "title": "Before That, He Had Left: The Earlier Past",
+      "grammar": "Past perfect",
+      "speaking": "Sequencing past events",
+      "writing": "Story with a flashback",
+      "vocab": "Sequencing words"
+    },
+    {
+      "day": 34,
+      "module": 3,
+      "title": "Plans, Forecasts, and Timetables: Future Review",
+      "grammar": "Future forms review; future continuous",
+      "speaking": "Forecasts and arrangements",
+      "writing": "Project timeline",
+      "vocab": "Forecasting"
+    },
+    {
+      "day": 35,
+      "module": 3,
+      "title": "If It Rains, We'll Stay: First Conditional",
+      "grammar": "First conditional; unless; time clauses",
+      "speaking": "Negotiating possibilities",
+      "writing": "Conditional offer email",
+      "vocab": "Conditions"
+    },
+    {
+      "day": 36,
+      "module": 3,
+      "title": "If I Were You: Second Conditional",
+      "grammar": "Second conditional",
+      "speaking": "What if...? hypothetical conversations",
+      "writing": "Imagining alternatives",
+      "vocab": "Hypotheticals"
+    },
+    {
+      "day": 37,
+      "module": 3,
+      "title": "Checkpoint 3: Solving a Problem",
+      "grammar": "Review of Days 31-36",
+      "speaking": "Role-play: problem solving",
+      "writing": "Guided report",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 38,
+      "module": 3,
+      "title": "It Is Made, It Was Sent: Passive Basics",
+      "grammar": "Passive voice: present and past simple",
+      "speaking": "Describing processes",
+      "writing": "Process description",
+      "vocab": "Processes"
+    },
+    {
+      "day": 39,
+      "module": 3,
+      "title": "The Person Who Helped Me: Defining Clauses",
+      "grammar": "Defining relative clauses (who/which/that/where)",
+      "speaking": "Describing people and things",
+      "writing": "Profile with relative clauses",
+      "vocab": "People and roles"
+    },
+    {
+      "day": 40,
+      "module": 3,
+      "title": "My Manager, Who Is Based in Delhi: Extra Detail",
+      "grammar": "Non-defining relative clauses; whose",
+      "speaking": "Adding detail while speaking",
+      "writing": "Descriptive paragraph",
+      "vocab": "Detail and description"
+    },
+    {
+      "day": 41,
+      "module": 3,
+      "title": "I Enjoy Reading, I Want to Learn: Verb Patterns",
+      "grammar": "Gerunds and infinitives 1",
+      "speaking": "Likes, dislikes, and preferences",
+      "writing": "Opinion paragraph",
+      "vocab": "Preferences"
+    },
+    {
+      "day": 42,
+      "module": 3,
+      "title": "She Said She Was Busy: Reported Speech",
+      "grammar": "Reported speech: statements and tense shift",
+      "speaking": "Relaying messages",
+      "writing": "Meeting notes",
+      "vocab": "Reporting verbs"
+    },
+    {
+      "day": 43,
+      "module": 3,
+      "title": "You Should, You'd Better: Advice",
+      "grammar": "should/ought to/had better",
+      "speaking": "Giving advice",
+      "writing": "Advice column",
+      "vocab": "Advice"
+    },
+    {
+      "day": 44,
+      "module": 3,
+      "title": "However, Therefore, In Addition: Linking",
+      "grammar": "Linking words and cohesion",
+      "speaking": "Structuring an opinion in speech",
+      "writing": "Opinion essay (120 words)",
+      "vocab": "Connectors"
+    },
+    {
+      "day": 45,
+      "module": 3,
+      "title": "Assessment 3: The Advice Clinic",
+      "grammar": "B1 consolidation and error review",
+      "speaking": "Role-play: advice clinic",
+      "writing": "B1 writing task (180 words)",
+      "vocab": "B1 core 1500 words"
+    },
+    {
+      "day": 46,
+      "module": 4,
+      "title": "If I Had Known: Third Conditional",
+      "grammar": "Third conditional and mixed conditionals",
+      "speaking": "Regrets and hindsight",
+      "writing": "Reflective writing",
+      "vocab": "Regret"
+    },
+    {
+      "day": 47,
+      "module": 4,
+      "title": "I Wish I Could: Wishes and Complaints",
+      "grammar": "wish / if only / would rather",
+      "speaking": "Wishes and complaints",
+      "writing": "Formal complaint letter",
+      "vocab": "Wishes and complaints"
+    },
+    {
+      "day": 48,
+      "module": 4,
+      "title": "It Has Been Approved: Advanced Passive",
+      "grammar": "Passive 2: perfect, continuous, modal, get-passive",
+      "speaking": "Formal vs informal tone",
+      "writing": "Formal report",
+      "vocab": "Formal register"
+    },
+    {
+      "day": 49,
+      "module": 4,
+      "title": "He Asked Whether We Had Decided: Reporting 2",
+      "grammar": "Reported speech 2: questions, commands, suggestions",
+      "speaking": "Reporting a meeting",
+      "writing": "Minutes of a meeting",
+      "vocab": "Reporting"
+    },
+    {
+      "day": 50,
+      "module": 4,
+      "title": "She Must Have Forgotten: Deduction",
+      "grammar": "Modals of deduction and speculation (present and past)",
+      "speaking": "Speculating about situations",
+      "writing": "Incident report",
+      "vocab": "Deduction"
+    },
+    {
+      "day": 51,
+      "module": 4,
+      "title": "By Friday I Will Have Finished: Deadlines",
+      "grammar": "Future perfect and future continuous",
+      "speaking": "Setting targets and deadlines",
+      "writing": "Goal-setting document",
+      "vocab": "Deadlines"
+    },
+    {
+      "day": 52,
+      "module": 4,
+      "title": "Checkpoint 4: The Negotiation",
+      "grammar": "Review of Days 46-51",
+      "speaking": "Role-play: negotiation",
+      "writing": "Guided proposal",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 53,
+      "module": 4,
+      "title": "Few, A Few, Neither, Both: Precision",
+      "grammar": "Advanced quantifiers and determiners",
+      "speaking": "Talking precisely about quantities",
+      "writing": "Data commentary",
+      "vocab": "Quantities"
+    },
+    {
+      "day": 54,
+      "module": 4,
+      "title": "The Internet, A University, Society: Articles",
+      "grammar": "Advanced article use: generic, unique, zero article",
+      "speaking": "Explaining concepts",
+      "writing": "Academic paragraph",
+      "vocab": "Abstraction"
+    },
+    {
+      "day": 55,
+      "module": 4,
+      "title": "Depend On, Interested In: Dependent Prepositions",
+      "grammar": "Dependent prepositions and fixed phrases",
+      "speaking": "Natural collocation in speech",
+      "writing": "Preposition editing",
+      "vocab": "Collocation"
+    },
+    {
+      "day": 56,
+      "module": 4,
+      "title": "Set Up, Follow Up, Take Over: Phrasal Verbs",
+      "grammar": "Phrasal verbs: separable and inseparable",
+      "speaking": "Phrasal verbs in conversation",
+      "writing": "Informal email",
+      "vocab": "Phrasal verbs"
+    },
+    {
+      "day": 57,
+      "module": 4,
+      "title": "A Beautiful Old Wooden Table: Adjective Order",
+      "grammar": "Adjective order; compound and participle adjectives",
+      "speaking": "Vivid description",
+      "writing": "Product description",
+      "vocab": "Description"
+    },
+    {
+      "day": 58,
+      "module": 4,
+      "title": "What I Need Is Time: Emphasis",
+      "grammar": "Cleft sentences and emphasis",
+      "speaking": "Emphasising a point in discussion",
+      "writing": "Persuasive paragraph",
+      "vocab": "Emphasis"
+    },
+    {
+      "day": 59,
+      "module": 4,
+      "title": "Same Message, Three Tones: Register",
+      "grammar": "Register and tone: formal, neutral, informal",
+      "speaking": "Code-switching practice",
+      "writing": "Rewriting for a different audience",
+      "vocab": "Register"
+    },
+    {
+      "day": 60,
+      "module": 4,
+      "title": "Assessment 4: The Interview",
+      "grammar": "B2 consolidation and error review",
+      "speaking": "Role-play: job interview",
+      "writing": "CV and cover letter",
+      "vocab": "B2 core 3000 words"
+    },
+    {
+      "day": 61,
+      "module": 5,
+      "title": "Walking Home, I Noticed: Participle Clauses",
+      "grammar": "Participle clauses (-ing and -ed)",
+      "speaking": "Concise storytelling",
+      "writing": "Summarising a text",
+      "vocab": "Concision"
+    },
+    {
+      "day": 62,
+      "module": 5,
+      "title": "Never Have I Seen: Inversion",
+      "grammar": "Inversion with negative adverbials",
+      "speaking": "Dramatic and formal speech",
+      "writing": "Formal opening lines",
+      "vocab": "Inversion"
+    },
+    {
+      "day": 63,
+      "module": 5,
+      "title": "I Insist That He Be Present: Formal Structures",
+      "grammar": "Subjunctive and formal structures",
+      "speaking": "Formal debate",
+      "writing": "Formal proposal language",
+      "vocab": "Formality"
+    },
+    {
+      "day": 64,
+      "module": 5,
+      "title": "Want To? Not Really: Ellipsis",
+      "grammar": "Ellipsis and substitution",
+      "speaking": "Natural conversational brevity",
+      "writing": "Dialogue writing",
+      "vocab": "Naturalness"
+    },
+    {
+      "day": 65,
+      "module": 5,
+      "title": "Sorry to Jump In: Conversation Management",
+      "grammar": "Discourse markers and turn-taking",
+      "speaking": "Interrupting and holding the floor politely",
+      "writing": "Transcript writing",
+      "vocab": "Discourse markers"
+    },
+    {
+      "day": 66,
+      "module": 5,
+      "title": "It Could Be Argued That: Hedging",
+      "grammar": "Hedging and boosting",
+      "speaking": "Diplomatic disagreement",
+      "writing": "Argumentative essay",
+      "vocab": "Hedging"
+    },
+    {
+      "day": 67,
+      "module": 5,
+      "title": "The Implementation of the Policy: Academic Style",
+      "grammar": "Nominalisation and academic style",
+      "speaking": "Presenting data",
+      "writing": "Abstract and summary",
+      "vocab": "Nominalisation"
+    },
+    {
+      "day": 68,
+      "module": 5,
+      "title": "Commas, Colons, Semicolons: Punctuation",
+      "grammar": "Punctuation mastery: comma, semicolon, colon, dash, hyphen",
+      "speaking": "Pausing and intonation",
+      "writing": "Editing workshop",
+      "vocab": "Punctuation"
+    },
+    {
+      "day": 69,
+      "module": 5,
+      "title": "Your Error Log: Fixing What You Repeat",
+      "grammar": "Error clinic: common first-language interference",
+      "speaking": "Self-correction and repair strategies",
+      "writing": "Personal error log",
+      "vocab": "Accuracy"
+    },
+    {
+      "day": 70,
+      "module": 5,
+      "title": "Whaddaya Mean? Connected Speech",
+      "grammar": "Connected speech: linking, elision, weak forms",
+      "speaking": "Shadowing practice",
+      "writing": "Dictation and transcription",
+      "vocab": "Pronunciation"
+    },
+    {
+      "day": 71,
+      "module": 5,
+      "title": "Un-, -ness, -able: Building Words",
+      "grammar": "Word formation: prefixes, suffixes, compound nouns",
+      "speaking": "Building vocabulary live",
+      "writing": "Vocabulary notebook entry",
+      "vocab": "Morphology"
+    },
+    {
+      "day": 72,
+      "module": 5,
+      "title": "Bite the Bullet: Idioms",
+      "grammar": "Idioms and fixed expressions",
+      "speaking": "Using idioms appropriately",
+      "writing": "Idiom-aware informal writing",
+      "vocab": "Idioms"
+    },
+    {
+      "day": 73,
+      "module": 5,
+      "title": "Right Word, Right Feeling: Nuance",
+      "grammar": "Collocation, connotation, and false friends",
+      "speaking": "Choosing the right word under pressure",
+      "writing": "Word-choice editing",
+      "vocab": "Nuance"
+    },
+    {
+      "day": 74,
+      "module": 5,
+      "title": "From Sentence to Argument: Cohesion",
+      "grammar": "Cohesion and coherence across paragraphs",
+      "speaking": "Structuring a two-minute talk",
+      "writing": "Five-paragraph essay",
+      "vocab": "Structure"
+    },
+    {
+      "day": 75,
+      "module": 5,
+      "title": "Assessment 5: Conference Q&A",
+      "grammar": "B2+ consolidation and error review",
+      "speaking": "Role-play: conference Q&A",
+      "writing": "B2 writing task (250 words)",
+      "vocab": "B2 core 5000 words"
+    },
+    {
+      "day": 76,
+      "module": 6,
+      "title": "Had We Known: Advanced Conditionals",
+      "grammar": "Advanced conditionals and hypothetical framing",
+      "speaking": "Diplomatic hypotheticals",
+      "writing": "Policy recommendation",
+      "vocab": "Hypothesis"
+    },
+    {
+      "day": 77,
+      "module": 6,
+      "title": "It Would Appear That: Stance",
+      "grammar": "Advanced modality and stance",
+      "speaking": "Making cautious claims",
+      "writing": "Academic discussion",
+      "vocab": "Stance"
+    },
+    {
+      "day": 78,
+      "module": 6,
+      "title": "It Is Widely Believed: Impersonal Style",
+      "grammar": "Advanced passive and impersonal constructions",
+      "speaking": "Objective reporting",
+      "writing": "Research summary",
+      "vocab": "Objectivity"
+    },
+    {
+      "day": 79,
+      "module": 6,
+      "title": "The Team Working on It: Reduced Clauses",
+      "grammar": "Reduced and advanced relative clauses",
+      "speaking": "Dense description",
+      "writing": "Technical description",
+      "vocab": "Complexity"
+    },
+    {
+      "day": 80,
+      "module": 6,
+      "title": "Not Only Did We Win: Rhetorical Word Order",
+      "grammar": "Inversion, fronting, and word-order effects",
+      "speaking": "Rhetorical speeches",
+      "writing": "Persuasive speech script",
+      "vocab": "Rhetoric"
+    },
+    {
+      "day": 81,
+      "module": 6,
+      "title": "What Matters Is This: Focus Structures",
+      "grammar": "Cleft, pseudo-cleft, and dislocation",
+      "speaking": "Topic management",
+      "writing": "Emphasis in essays",
+      "vocab": "Focus"
+    },
+    {
+      "day": 82,
+      "module": 6,
+      "title": "Checkpoint 6: The Panel",
+      "grammar": "Review of Days 76-81",
+      "speaking": "Role-play: panel discussion",
+      "writing": "Guided critique",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 83,
+      "module": 6,
+      "title": "Kind of, Sort of, You Know: Vague Language",
+      "grammar": "Ellipsis, substitution, and vague language",
+      "speaking": "Native-like informal talk",
+      "writing": "Conversational transcript",
+      "vocab": "Naturalness"
+    },
+    {
+      "day": 84,
+      "module": 6,
+      "title": "Idioms With a Suit On: Register-Matched Idioms",
+      "grammar": "Advanced phrasal verbs and idioms in context",
+      "speaking": "Idiomatic fluency",
+      "writing": "Register-matched idiom use",
+      "vocab": "Idiom register"
+    },
+    {
+      "day": 85,
+      "module": 6,
+      "title": "The Map Is Not the Territory: Figurative Language",
+      "grammar": "Metaphor, simile, and figurative language",
+      "speaking": "Persuasive storytelling",
+      "writing": "Feature article",
+      "vocab": "Figurative language"
+    },
+    {
+      "day": 86,
+      "module": 6,
+      "title": "Saying the Opposite: Irony and Tone",
+      "grammar": "Tone, irony, humour, and understatement",
+      "speaking": "Reading the room",
+      "writing": "Comic and satirical writing",
+      "vocab": "Tone"
+    },
+    {
+      "day": 87,
+      "module": 6,
+      "title": "Only the Modifier Moved: Precision",
+      "grammar": "Precision: ambiguity, modifier placement, parallelism",
+      "speaking": "Clarifying in speech",
+      "writing": "Copy-editing exercise",
+      "vocab": "Precision"
+    },
+    {
+      "day": 88,
+      "module": 6,
+      "title": "Building an Argument That Holds",
+      "grammar": "Argumentation and critical thinking language",
+      "speaking": "Structured debate",
+      "writing": "C1 argument essay",
+      "vocab": "Argument"
+    },
+    {
+      "day": 89,
+      "module": 6,
+      "title": "Editing Your Own Work",
+      "grammar": "Editing and proofreading strategies",
+      "speaking": "Self-monitoring",
+      "writing": "300-word edit task",
+      "vocab": "Accuracy"
+    },
+    {
+      "day": 90,
+      "module": 6,
+      "title": "Assessment 6: The Media Interview",
+      "grammar": "C1 consolidation and error review",
+      "speaking": "Role-play: media interview",
+      "writing": "C1 writing task (350 words)",
+      "vocab": "C1 core 8000 words"
+    },
+    {
+      "day": 91,
+      "module": 7,
+      "title": "Your First Day at Work: Register",
+      "grammar": "Workplace register: formal, semi-formal, casual",
+      "speaking": "First-day small talk",
+      "writing": "Email etiquette and tone",
+      "vocab": "Office vocabulary"
+    },
+    {
+      "day": 92,
+      "module": 7,
+      "title": "Running the Meeting: Open, Agenda, Minutes",
+      "grammar": "Meeting language and functional phrases",
+      "speaking": "Chairing a meeting",
+      "writing": "Agenda and minutes",
+      "vocab": "Meeting language"
+    },
+    {
+      "day": 93,
+      "module": 7,
+      "title": "Disagreeing Without Damage",
+      "grammar": "Interrupting, disagreeing, and closing language",
+      "speaking": "Consensus-building role-play",
+      "writing": "Action-points email",
+      "vocab": "Diplomacy"
+    },
+    {
+      "day": 94,
+      "module": 7,
+      "title": "The Deal: Negotiation and Persuasion",
+      "grammar": "Conditionals and modals in negotiation",
+      "speaking": "Negotiating a deal",
+      "writing": "Proposal and counter-proposal",
+      "vocab": "Negotiation lexis"
+    },
+    {
+      "day": 95,
+      "module": 7,
+      "title": "Presenting 1: Structure and Signposting",
+      "grammar": "Signposting language and sequencing",
+      "speaking": "Three-minute presentation",
+      "writing": "Slide outline",
+      "vocab": "Signposting"
+    },
+    {
+      "day": 96,
+      "module": 7,
+      "title": "Presenting 2: Questions and Data",
+      "grammar": "Handling questions; describing trends",
+      "speaking": "Q&A simulation",
+      "writing": "Executive summary",
+      "vocab": "Data language"
+    },
+    {
+      "day": 97,
+      "module": 7,
+      "title": "Checkpoint 7: The Client Meeting",
+      "grammar": "Review of Days 91-96",
+      "speaking": "Mock client meeting",
+      "writing": "Guided business report",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 98,
+      "module": 7,
+      "title": "Inbox Zero: Email Genres",
+      "grammar": "Email structure, tone, and politeness",
+      "speaking": "Phone and video-call etiquette",
+      "writing": "Four email types: request, follow-up, escalation, apology",
+      "vocab": "Email phrases"
+    },
+    {
+      "day": 99,
+      "module": 7,
+      "title": "Reports and Proposals That Get Read",
+      "grammar": "Impersonal style and structure in reports",
+      "speaking": "Briefing a stakeholder",
+      "writing": "Formal report (400 words)",
+      "vocab": "Report writing"
+    },
+    {
+      "day": 100,
+      "module": 7,
+      "title": "CV, Cover Letter, LinkedIn",
+      "grammar": "Action verbs and parallel structure",
+      "speaking": "Interview practice with STAR",
+      "writing": "CV and cover letter",
+      "vocab": "Career lexis"
+    },
+    {
+      "day": 101,
+      "module": 7,
+      "title": "Working Across Cultures",
+      "grammar": "Politeness strategies and directness",
+      "speaking": "Adapting to international colleagues",
+      "writing": "Culture brief",
+      "vocab": "Pragmatics"
+    },
+    {
+      "day": 102,
+      "module": 7,
+      "title": "The Difficult Customer",
+      "grammar": "Empathy language and complaint handling",
+      "speaking": "Handling an angry customer",
+      "writing": "Complaint response letter",
+      "vocab": "Service language"
+    },
+    {
+      "day": 103,
+      "module": 7,
+      "title": "Async and Remote: Digital Workplace English",
+      "grammar": "Digital register and brevity",
+      "speaking": "Stand-ups and async updates",
+      "writing": "Chat and channel norms",
+      "vocab": "Digital register"
+    },
+    {
+      "day": 104,
+      "module": 7,
+      "title": "Numbers That Tell a Story",
+      "grammar": "Describing trends, comparatives, and approximations",
+      "speaking": "Explaining figures",
+      "writing": "Financial summary",
+      "vocab": "Numbers and finance"
+    },
+    {
+      "day": 105,
+      "module": 7,
+      "title": "Assessment 7: The Business Portfolio",
+      "grammar": "Professional consolidation and error review",
+      "speaking": "Full mock meeting",
+      "writing": "Business writing portfolio",
+      "vocab": "Professional core"
+    },
+    {
+      "day": 106,
+      "module": 8,
+      "title": "Colour or Color? British vs American Spelling",
+      "grammar": "British vs American spelling and punctuation",
+      "speaking": "Accent awareness",
+      "writing": "Style-sheet comparison",
+      "vocab": "Spelling variants"
+    },
+    {
+      "day": 107,
+      "module": 8,
+      "title": "Lorry or Truck? Vocabulary and Grammar Divides",
+      "grammar": "British vs American vocabulary and grammar",
+      "speaking": "Understanding both varieties",
+      "writing": "Editing for variety consistency",
+      "vocab": "Vocabulary sets"
+    },
+    {
+      "day": 108,
+      "module": 8,
+      "title": "Many Englishes: India, Australia, Nigeria, Singapore",
+      "grammar": "Features of world Englishes",
+      "speaking": "Intelligibility and accommodation",
+      "writing": "Writing for global readers",
+      "vocab": "Global English"
+    },
+    {
+      "day": 109,
+      "module": 8,
+      "title": "Direct or Polite? Culture and Pragmatics",
+      "grammar": "Directness, formality, and hierarchy across cultures",
+      "speaking": "Polite disagreement across cultures",
+      "writing": "Email to an international client",
+      "vocab": "Pragmatics"
+    },
+    {
+      "day": 110,
+      "module": 8,
+      "title": "Dear Sir, I Remain: Old Conventions",
+      "grammar": "Historical formal style and its modern remains",
+      "speaking": "Reading vintage style aloud",
+      "writing": "Rewriting Victorian prose",
+      "vocab": "Historical style"
+    },
+    {
+      "day": 111,
+      "module": 8,
+      "title": "LOL, BRB, and the Emoji Turn",
+      "grammar": "Digital English: textspeak, emoji, memes",
+      "speaking": "Informal online chat",
+      "writing": "Captions and threads",
+      "vocab": "Digital slang"
+    },
+    {
+      "day": 112,
+      "module": 8,
+      "title": "Checkpoint 8: Which English?",
+      "grammar": "Review of Days 106-111",
+      "speaking": "Panel: which English should you learn?",
+      "writing": "Style comparison task",
+      "vocab": "Cumulative review"
+    },
+    {
+      "day": 113,
+      "module": 8,
+      "title": "Synergy, Leverage, Circle Back: Jargon vs Plain English",
+      "grammar": "Plain English and concision",
+      "speaking": "Saying it plainly at work",
+      "writing": "Plain-language rewrite",
+      "vocab": "Clarity"
+    },
+    {
+      "day": 114,
+      "module": 8,
+      "title": "Slay, Low-key, No Cap: Gen-Z English",
+      "grammar": "Contemporary slang and appropriacy",
+      "speaking": "Slang in context",
+      "writing": "Social post vs formal post",
+      "vocab": "Contemporary slang"
+    },
+    {
+      "day": 115,
+      "module": 8,
+      "title": "Writing With Machines: AI-Era English",
+      "grammar": "Prompting, editing, and authenticity",
+      "speaking": "Voice interfaces and dictation",
+      "writing": "AI-assisted editing",
+      "vocab": "Tech lexis"
+    },
+    {
+      "day": 116,
+      "module": 8,
+      "title": "Whose Style Is It? Chicago, AP, Guardian, Fowler",
+      "grammar": "Style guides compared",
+      "speaking": "Editorial discussion",
+      "writing": "House style sheet",
+      "vocab": "Editorial"
+    },
+    {
+      "day": 117,
+      "module": 8,
+      "title": "Accents, Intelligibility, and Clarity",
+      "grammar": "Pronunciation: stress, rhythm, and intonation",
+      "speaking": "Accent clarity practice",
+      "writing": "Phonetic transcription",
+      "vocab": "Phonetics"
+    },
+    {
+      "day": 118,
+      "module": 8,
+      "title": "Tell It So They Listen",
+      "grammar": "Narrative structure and rhetorical devices",
+      "speaking": "Five-minute TED-style talk",
+      "writing": "Narrative essay",
+      "vocab": "Rhetoric"
+    },
+    {
+      "day": 119,
+      "module": 8,
+      "title": "Portfolio Workshop: Revise Your Best Work",
+      "grammar": "Revision, editing, and self-assessment",
+      "speaking": "Mock interview and presentation",
+      "writing": "Final portfolio",
+      "vocab": "Revision"
+    },
+    {
+      "day": 120,
+      "module": 8,
+      "title": "Final Exam and What Comes Next",
+      "grammar": "C1/C2 consolidation",
+      "speaking": "Capstone presentation",
+      "writing": "Final writing exam",
+      "vocab": "Whole course"
+    }
+  ]
+}
