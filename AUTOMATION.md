@@ -164,6 +164,7 @@ If `lessons` is 0, the run stops without calling the model. The agent also check
 | Symptom | Cause | Fix |
 | --- | --- | --- |
 | Task says "last run result: 0x1" | Script error | Read `ops/automation.log` |
+| Task result is 0x1 with an *empty* log | The shell path was a Store app alias, which Task Scheduler cannot launch | Re-run `.\scripts\register-daily-task.ps1`; it uses PowerShell 7 only when it is a real file, otherwise Windows PowerShell 5.1 |
 | "No lesson fits in today's remaining budget" | Limit reached | Wait for the daily reset, or raise `dailyTokenLimit` if it is set too low |
 | `opencode` not found | PATH differs in Task Scheduler | Re-register the task; it stores the full path |
 | Model or provider error | Wrong `model` id or expired login | Run `opencode` once interactively, then check `opencode models` |
