@@ -45,6 +45,13 @@ That creates a task named **English120 Daily Lesson**. It runs `scripts\daily.ps
 4. Runs `scripts/build-all.mjs` (rebuilds the plan, sidebar, progress and module pages, then validates).
 5. Commits and pushes. The push triggers the normal Pages deploy.
 
+If the model stops early - usually because the free quota ran out - the script keeps going:
+
+- the model's full output is written to `ops/automation.log`, so the reason is readable later;
+- lessons already written are validated and published instead of being thrown away;
+- a line is added to `ops/run-log.jsonl` so tomorrow's budget counts the tokens that the agent never logged;
+- unfinished lessons stay as `status: draft` and are rewritten on the next run.
+
 ### Configure it
 
 `ops/automation.json`:
@@ -145,7 +152,9 @@ lessons   = min(maxLessonsPerRun, floor(remaining ÷ estimatedTokensPerLesson))
 
 If `lessons` is 0, the run stops without calling the model. The agent also checks the budget itself, so the two layers agree.
 
-**Set `dailyTokenLimit` to about 80% of your provider's published free limit.** Limits change without notice; the reserve is there so a run never dies mid-lesson.
+The budget only counts tokens that reached `ops/run-log.jsonl`. If a run dies before logging, the script appends an estimate itself, so an interrupted day does not make the next day over-optimistic.
+
+**Set `dailyTokenLimit` to about 80% of your provider's published free limit.** Limits change without notice; the reserve is there so a run never dies mid-lesson. The free tier is small: four full lessons in one day was enough to exhaust it, so one scheduled run per day is the realistic rhythm.
 
 ---
 
@@ -165,6 +174,7 @@ If `lessons` is 0, the run stops without calling the model. The agent also check
 | --- | --- | --- |
 | Task says "last run result: 0x1" | Script error | Read `ops/automation.log` |
 | Task result is 0x1 with an *empty* log | The shell path was a Store app alias, which Task Scheduler cannot launch | Re-run `.\scripts\register-daily-task.ps1`; it uses PowerShell 7 only when it is a real file, otherwise Windows PowerShell 5.1 |
+| `ERROR: opencode run failed with exit code 1` | Almost always the free quota: the log line above it contains `Free usage limit reached` | Nothing to fix. The run already saved and published any finished lessons. Lower `maxLessonsPerRun` to `1` if it happens often |
 | "No lesson fits in today's remaining budget" | Limit reached | Wait for the daily reset, or raise `dailyTokenLimit` if it is set too low |
 | `opencode` not found | PATH differs in Task Scheduler | Re-register the task; it stores the full path |
 | Model or provider error | Wrong `model` id or expired login | Run `opencode` once interactively, then check `opencode models` |
