@@ -4,14 +4,14 @@
 
 ```text
 English 120: Zero to Confident
-█░░░░░░░░░░░░░░░░░░░░░░░  7/120 lessons  (6%)
+██░░░░░░░░░░░░░░░░░░░░░░  9/120 lessons  (8%)
 ```
 
-**7 of 120 lessons written.** 113 still planned.
+**9 of 120 lessons written.** 111 still planned.
 
 | Module | Level | Written | Progress |
 | --- | --- | --- | --- |
-| [1. Foundations](modules/01-foundations.md) | A1 | 7/15 | `██████░░░░░░` |
+| [1. Foundations](modules/01-foundations.md) | A1 | 9/15 | `███████░░░░░` |
 | [2. Elementary](modules/02-elementary.md) | A2 | 0/15 | `░░░░░░░░░░░░` |
 | [3. Intermediate](modules/03-intermediate.md) | B1 | 0/15 | `░░░░░░░░░░░░` |
 | [4. Upper-Intermediate I](modules/04-upper-intermediate-one.md) | B2 | 0/15 | `░░░░░░░░░░░░` |
@@ -22,17 +22,17 @@ English 120: Zero to Confident
 
 ## Next up
 
-**Day 8 · There Is a Table in the Room: Place** — there is/are; prepositions of place. Speaking: Describing your home and workplace. Writing: Describe a room.
+**Day 10 · Bigger, Better, Cheaper: Comparison** — Adjectives; basic comparatives; intensifiers very/really/quite. Speaking: Comparing two products. Writing: A short comparison review.
 
 ## Recently added
 
 | Day | Lesson | Words | Updated |
 | --- | --- | --- | --- |
+| 9 | [Some Coffee, Any Sugar? Quantity](days/day-009.md) | 1976 | 2026-11-10 |
+| 8 | [There Is a Table in the Room: Place](days/day-008.md) | 1831 | 2026-11-10 |
 | 7 | [Checkpoint 1: First Conversations](days/day-007.md) | 1330 | 2026-11-10 |
 | 6 | [Do You...? Yes, I Do: Questions](days/day-006.md) | 1380 | 2026-11-10 |
 | 5 | [Every Day Is the Same: Present Simple](days/day-005.md) | 1070 | 2026-11-10 |
-| 4 | [This, That, Mine: Pointing and Possession](days/day-004.md) | 1060 | 2026-11-10 |
-| 3 | [A Book, The Book, Books: Articles and Plurals](days/day-003.md) | 1100 | 2026-11-10 |
 
 ## How status is tracked
 

@@ -2,7 +2,7 @@
 
 Every lesson in one table. New lessons are added at the bottom of the relevant module and appear here automatically.
 
-**7/120 written.**
+**9/120 written.**
 
 | Day | Module | Level | Lesson | Grammar focus | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -13,8 +13,8 @@ Every lesson in one table. New lessons are added at the bottom of the relevant m
 | 5 | 1 | A1 | [Every Day Is the Same: Present Simple](day-005.md) | Present simple affirmative; third-person -s spelling | ✅ |
 | 6 | 1 | A1 | [Do You...? Yes, I Do: Questions](day-006.md) | Present simple negatives, yes/no questions, wh-questions, short answers | ✅ |
 | 7 | 1 | A1 | [Checkpoint 1: First Conversations](day-007.md) | Review of Days 1-6 | ✅ |
-| 8 | 1 | A1 | There Is a Table in the Room: Place | there is/are; prepositions of place | ⬜ |
-| 9 | 1 | A1 | Some Coffee, Any Sugar? Quantity | Countable and uncountable nouns; some/any/much/many | ⬜ |
+| 8 | 1 | A1 | [There Is a Table in the Room: Place](day-008.md) | there is/are; prepositions of place | ✅ |
+| 9 | 1 | A1 | [Some Coffee, Any Sugar? Quantity](day-009.md) | Countable and uncountable nouns; some/any/much/many | ✅ |
 | 10 | 1 | A1 | Bigger, Better, Cheaper: Comparison | Adjectives; basic comparatives; intensifiers very/really/quite | ⬜ |
 | 11 | 1 | A1 | Can You...? Ability and Permission | can/can't for ability and permission | ⬜ |
 | 12 | 1 | A1 | Always, Sometimes, Never: Habits and Time | Adverbs of frequency; prepositions of time; time expressions | ⬜ |

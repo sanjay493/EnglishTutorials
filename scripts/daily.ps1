@@ -21,6 +21,37 @@ function Write-Log([string]$Message) {
   Add-Content -Path $logPath -Value $line -Encoding utf8
 }
 
+# Lessons touched in the working tree that are not committed yet.
+function Get-PendingLessons {
+  $tracked = git diff --name-only HEAD -- days
+  $untracked = git ls-files --others --exclude-standard -- days
+  @($tracked) + @($untracked) |
+    Where-Object { $_ -match '^days/day-\d{3}\.md$' } |
+    Sort-Object -Unique
+}
+
+# Rough token estimate for salvaged lessons, so the budget is not blind tomorrow.
+function Add-RunLogEntry([string[]]$Files, [string]$Note) {
+  if (-not $Files -or $Files.Count -eq 0) { return }
+  $words = 0
+  foreach ($f in $Files) {
+    if (Test-Path $f) {
+      $words += (Get-Content $f -Raw) -split '\s+' | Where-Object { $_ } | Measure-Object | Select-Object -ExpandProperty Count
+    }
+  }
+  $days = $Files | ForEach-Object { [int]($_.Substring(9, 3)) }
+  $est = [int]([Math]::Round($words * 1.4 + 1500))
+  $entry = [ordered]@{
+    date    = (Get-Date -Format 'yyyy-MM-dd')
+    lessons = @($days)
+    estTokens = $est
+    model   = "salvaged"
+    note    = $Note
+  } | ConvertTo-Json -Compress
+  Add-Content -Path (Join-Path $repo "ops\run-log.jsonl") -Value $entry -Encoding utf8
+  Write-Log "Logged salvaged run: days $($days -join ', '), ~$est tokens."
+}
+
 try {
   $configPath = Join-Path $repo "ops\automation.json"
   $config = if (Test-Path $configPath) {
@@ -59,17 +90,42 @@ try {
   if ($config.model) { $cliArgs += @("--model", [string]$config.model) }
   $cliArgs += $prompt
 
-  Write-Log ("Running {0} lesson(s) with {1}" -f $count, $opencode)
+  Write-Log (("Running {0} lesson(s) with {1}" -f $count, $opencode))
   if ($DryRun) {
     Write-Log "Dry run: stopping before the model call."
     exit 0
   }
 
-  & $opencode @cliArgs
-  if ($LASTEXITCODE -ne 0) { throw "opencode run failed with exit code $LASTEXITCODE." }
+  # Capture the model's output so a failure is diagnosable from the log alone.
+  $output = & $opencode @cliArgs 2>&1 | ForEach-Object { $line = "$_"; Write-Host $line; $line }
+  $modelExit = $LASTEXITCODE
+  $text = ($output | Out-String)
+  if ($text.Trim()) {
+    Add-Content -Path $logPath -Value $text.TrimEnd() -Encoding utf8
+  }
+
+  $pending = @(Get-PendingLessons)
+
+  if ($modelExit -ne 0) {
+    if ($text -match 'usage limit|quota|rate limit|limit reached') {
+      Write-Log "Daily model quota is exhausted. Salvaging lessons that were already written."
+    } else {
+      Write-Log "ERROR: opencode run failed with exit code $modelExit."
+    }
+    if ($pending.Count -eq 0) {
+      Write-Log "No lesson files were written. Nothing to publish."
+      exit 0
+    }
+  }
 
   node scripts/build-all.mjs
   if ($LASTEXITCODE -ne 0) { throw "Validation failed after the run. Nothing was published." }
+
+  # Only publish lessons the checker accepts.
+  $complete = @()
+  foreach ($f in $pending) {
+    if ((Get-Content $f -Raw) -match '(?m)^status:\s*complete\s*$') { $complete += $f }
+  }
 
   git add -A
   git diff --cached --quiet
@@ -78,9 +134,18 @@ try {
     exit 0
   }
 
-  $message = "lesson: automated run $(Get-Date -Format 'yyyy-MM-dd')"
-  git commit -m $message
-  if ($LASTEXITCODE -ne 0) { throw "git commit failed." }
+  if ($modelExit -ne 0) {
+    $message = "lesson: automated run $(Get-Date -Format 'yyyy-MM-dd') (partial)"
+    git commit -m $message
+    if ($LASTEXITCODE -ne 0) { throw "git commit failed." }
+    Add-RunLogEntry $complete "Model stopped early; complete lessons were kept and drafts were left for the next run."
+    git add -A
+    git commit -m "chore(run-log): record the partial automated run" | Out-Null
+  } else {
+    $message = "lesson: automated run $(Get-Date -Format 'yyyy-MM-dd')"
+    git commit -m $message
+    if ($LASTEXITCODE -ne 0) { throw "git commit failed." }
+  }
 
   if ($config.push -eq $false) {
     Write-Log "Commit created; push is disabled in ops/automation.json."
@@ -91,6 +156,7 @@ try {
   if ($LASTEXITCODE -ne 0) { throw "git push failed. Check GitHub credentials for the scheduled task." }
 
   Write-Log "Published. GitHub Pages will rebuild shortly."
+  exit 0
 }
 catch {
   Write-Log "ERROR: $($_.Exception.Message)"

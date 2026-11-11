@@ -1,2 +1,3 @@
 {"date":"2026-11-10","lessons":[1,2,3,4,5],"estTokens":18000,"model":"setup","note":"Initial lessons written during project setup."}
 {"date":"2026-11-10","lessons":[6,7],"estTokens":5300,"model":"deepseek-v4.1-flash-free","note":"Questions and negatives, then Checkpoint 1 review; both passed check.mjs."}
+{"date":"2026-11-10","lessons":[8,9],"estTokens":7859,"model":"deepseek-v4.1-flash-free","note":"Written at 21:00 but the free quota ran out before commit; salvaged and published the next morning."}

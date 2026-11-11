@@ -1,6 +1,6 @@
 # Module 1 · Foundations
 
-**Level:** A1 · **Days:** 1-15 · **Written:** 7/15
+**Level:** A1 · **Days:** 1-15 · **Written:** 9/15
 
 > Build a correct simple sentence, introduce yourself, and handle everyday basics with confidence.
 
@@ -19,8 +19,8 @@ You can introduce yourself, ask and answer simple questions, and write 60 words 
 | 5 | [Every Day Is the Same: Present Simple](../days/day-005.md) | Present simple affirmative; third-person -s spelling | Daily routine interview | Write about your day | ✅ |
 | 6 | [Do You...? Yes, I Do: Questions](../days/day-006.md) | Present simple negatives, yes/no questions, wh-questions, short answers | Personal questions and follow-up questions | A first email to a colleague | ✅ |
 | 7 | [Checkpoint 1: First Conversations](../days/day-007.md) | Review of Days 1-6 | Role-play: meeting someone for the first time | Guided paragraph (60 words) | ✅ |
-| 8 | There Is a Table in the Room: Place | there is/are; prepositions of place | Describing your home and workplace | Describe a room | ⬜ |
-| 9 | Some Coffee, Any Sugar? Quantity | Countable and uncountable nouns; some/any/much/many | Ordering food and drink | Shopping list and a short note | ⬜ |
+| 8 | [There Is a Table in the Room: Place](../days/day-008.md) | there is/are; prepositions of place | Describing your home and workplace | Describe a room | ✅ |
+| 9 | [Some Coffee, Any Sugar? Quantity](../days/day-009.md) | Countable and uncountable nouns; some/any/much/many | Ordering food and drink | Shopping list and a short note | ✅ |
 | 10 | Bigger, Better, Cheaper: Comparison | Adjectives; basic comparatives; intensifiers very/really/quite | Comparing two products | A short comparison review | ⬜ |
 | 11 | Can You...? Ability and Permission | can/can't for ability and permission | Skills, hobbies, and asking permission | A short application note | ⬜ |
 | 12 | Always, Sometimes, Never: Habits and Time | Adverbs of frequency; prepositions of time; time expressions | Habits, schedules, and appointments | Weekly schedule and a confirming email | ⬜ |

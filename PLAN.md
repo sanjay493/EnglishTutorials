@@ -60,8 +60,8 @@ Status: ✅ written · ⬜ planned. The live dashboard is [`PROGRESS.md`](PROGRE
 | 5 | [Day 5: Every Day Is the Same: Present Simple](days/day-005.md) | Present simple affirmative; third-person -s spelling | Daily routine interview | Write about your day | ✅ |
 | 6 | [Day 6: Do You...? Yes, I Do: Questions](days/day-006.md) | Present simple negatives, yes/no questions, wh-questions, short answers | Personal questions and follow-up questions | A first email to a colleague | ✅ |
 | 7 | [Day 7: Checkpoint 1: First Conversations](days/day-007.md) | Review of Days 1-6 | Role-play: meeting someone for the first time | Guided paragraph (60 words) | ✅ |
-| 8 | Day 8: There Is a Table in the Room: Place | there is/are; prepositions of place | Describing your home and workplace | Describe a room | ⬜ |
-| 9 | Day 9: Some Coffee, Any Sugar? Quantity | Countable and uncountable nouns; some/any/much/many | Ordering food and drink | Shopping list and a short note | ⬜ |
+| 8 | [Day 8: There Is a Table in the Room: Place](days/day-008.md) | there is/are; prepositions of place | Describing your home and workplace | Describe a room | ✅ |
+| 9 | [Day 9: Some Coffee, Any Sugar? Quantity](days/day-009.md) | Countable and uncountable nouns; some/any/much/many | Ordering food and drink | Shopping list and a short note | ✅ |
 | 10 | Day 10: Bigger, Better, Cheaper: Comparison | Adjectives; basic comparatives; intensifiers very/really/quite | Comparing two products | A short comparison review | ⬜ |
 | 11 | Day 11: Can You...? Ability and Permission | can/can't for ability and permission | Skills, hobbies, and asking permission | A short application note | ⬜ |
 | 12 | Day 12: Always, Sometimes, Never: Habits and Time | Adverbs of frequency; prepositions of time; time expressions | Habits, schedules, and appointments | Weekly schedule and a confirming email | ⬜ |

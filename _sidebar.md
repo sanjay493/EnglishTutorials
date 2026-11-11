@@ -16,6 +16,8 @@
     - [Day 5 · Every Day Is the Same: Present Simple](days/day-005.md)
     - [Day 6 · Do You...? Yes, I Do: Questions](days/day-006.md)
     - [Day 7 · Checkpoint 1: First Conversations](days/day-007.md)
+    - [Day 8 · There Is a Table in the Room: Place](days/day-008.md)
+    - [Day 9 · Some Coffee, Any Sugar? Quantity](days/day-009.md)
 - **2 · Elementary (A2)**
   - [Overview](modules/02-elementary.md)
 - **3 · Intermediate (B1)**
